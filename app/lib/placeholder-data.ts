@@ -51,7 +51,7 @@ const customers: Customer[] = [
   },
 ];
 
-const invoices: Partial<Invoice>[] = [
+const invoices = [
   {
     customer_id: customers[0].id,
     amount: 15795,
